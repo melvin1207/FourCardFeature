@@ -132,13 +132,17 @@ h3{
 }
 
 @media (min-width: 768px){
+    body{
+        padding: 80px 200px;
+    }
+
     article{
         grid-template-columns: repeat(3,1fr);
         grid-template-areas: 
-        ". a ."
-        "b a c"
-        "b d c"
-        ". d .";
+        ". b ."
+        "a b d"
+        "a c d"
+        ". c .";
     }
 }
 
